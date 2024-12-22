@@ -1,0 +1,17 @@
+body{
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divisor{
+    width: 70%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+h2{
+    color: rgb(4, 191, 4);
+}
+
