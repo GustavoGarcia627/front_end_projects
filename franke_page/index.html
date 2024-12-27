@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franke-page</title>
+    <link rel="stylesheet" href="style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- This is the nav -->
+    <header>
+        <div class="logo">El Tavo627 </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Features</a></li>
+                <li><a href="contact.html">Pricing</a></li>
+                <li><a href="contact.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
